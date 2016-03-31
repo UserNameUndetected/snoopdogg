@@ -1,0 +1,90 @@
+body {
+	font-family: 'Arial';
+	background: url("media/background3.png") no-repeat center fixed ;
+	background-size: cover;
+	}
+
+#menu {
+	margin: 1% 12.5% 5% 12.5%;
+	text-align:center;
+	height:100px;
+	background: url("Media/weedbanner.png");
+	border: 5px solid black;
+	border-radius: 20px 20px 20px 20px;
+	position: fixed;
+	left:0;
+	top:0;
+	width:75%;
+}
+
+#menu ul {
+	margin-top: 35px;
+	
+}
+
+#menu li {
+	display:inline;
+	padding: 0px 10x 0px 10px;
+	font-size: 20px;
+}
+
+#menu a {
+	text-decoration: none;
+	color: white;
+	margin:15px;
+}
+	
+#menu a:hover { 	
+	background-color: black;
+	color:white;
+}
+
+
+.image1 {
+	margin:10% 0 0 0;
+}
+ 
+footer{
+	background:white;
+	border:3px solid black;
+	border-radius:10px 10px 10px 10px;
+	text-align:center;
+	margin:1% 12.5% 1% 12.5%;
+}
+
+.dropbutton {
+	color: white; 
+	display: inline-block;
+	
+}
+
+.dropbutton:hover {
+	color:white;
+	background-color:black;
+}
+
+.dropdown {
+	color:black;
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-links {
+	display: none;
+	position: absolute;
+	background-color: black;
+	color:black;
+}
+
+.dropdown-links a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display:block;
+}
+
+.dropdown:hover .dropdown-links {
+	display:block;
+	color:black;
+	border-radius: 0px 0px 10px 10px;
+}
